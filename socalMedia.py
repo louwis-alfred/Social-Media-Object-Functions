@@ -1,4 +1,6 @@
 # Using object Functions
+# Big credits for SDPT for this wonderful lesson you can check their website below if you want more Tagalog Tutorial
+# https://www.youtube.com/@SDPTSolutions
 
 class User:
     def __init__(self,firstName,lastName,likesCount,friendsName):
