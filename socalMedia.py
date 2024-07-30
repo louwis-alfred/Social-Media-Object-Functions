@@ -21,11 +21,8 @@ lastName = input('Enter lastname  :')
 likesCount = int(input('Enter Likes count: '))
 friendsName = input('Enter Friend name: ') 
 
-# to split the input into a list of friend names
 friendList = friendsName.split(',')
 
 user1 = User(firstName,lastName,likesCount,friendList)
 user1.display()       
-# user1 = User('Louwis Alfredo','JoC',20,['Jonathan','Bruce Lee'])
-# user1.display()
 
