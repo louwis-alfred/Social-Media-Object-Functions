@@ -1,6 +1,4 @@
 # Using object Functions
-# Big credits for SDPT for this wonderful lesson 
-
 class User:
     def __init__(self,firstName,lastName,likesCount,friendsName):
         self.firstName = firstName
